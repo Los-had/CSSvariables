@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+div{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-color: #151515;
+    margin-top: 250px;
+    animation-name: testando;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+:root {
+    --ftt: #151515;
+    --fcoa: rgba(9, 65, 110, 0.822); 
+}
+
+@keyframes testando{
+    0% {
+        background-image: linear-gradient(to bottom, #151515, rgba(9, 65, 110, 0.822));
+    }
+    25% {
+        border-radius: 15% 15%;
+        background-image: linear-gradient(to bottom, #151515, rgba(9, 65, 110, 0.822));
+    }
+    50%{
+        border-radius: 30% 30%;
+        background-image: linear-gradient(to bottom, #151515, rgba(9, 65, 110, 0.822));
+    }
+    75%{
+        border-radius: 55% 55%;
+        background-image: linear-gradient(to bottom, #151515, rgba(9, 65, 110, 0.822));
+    }
+    100%{
+        border-radius: 100%;
+        background-color: var(--fcoa);
+    }
+}
