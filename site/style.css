@@ -7,7 +7,7 @@ div{
     background-color: #151515;
     margin-top: 250px;
     animation-name: testando;
-    animation-duration: 15s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
@@ -19,6 +19,7 @@ div{
 @keyframes testando{
     0% {
         background-image: linear-gradient(to bottom, #151515, rgba(9, 65, 110, 0.822));
+        border-radius: 5% 5%;
     }
     25% {
         border-radius: 15% 15%;
@@ -33,7 +34,7 @@ div{
         background-image: linear-gradient(to bottom, #151515, rgba(9, 65, 110, 0.822));
     }
     100%{
-        border-radius: 100%;
-        background-color: var(--fcoa);
+        background-image: linear-gradient(to bottom, #151515, rgba(9, 65, 110, 0.822));
+        box-shadow: 10px 10px rgba(136, 132, 132, 0.575);
     }
 }

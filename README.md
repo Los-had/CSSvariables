@@ -1,2 +1,2 @@
 # CSSvariables
- variaveis no CSS3
+ variaveis no CSS3, animação e degrade
