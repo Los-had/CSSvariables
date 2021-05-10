@@ -10,6 +10,7 @@ div{
     animation-duration: 5s;
     animation-iteration-count: infinite;
     border-radius: 1% 1%;
+    box-shadow: 2px 2px rgba(136, 132, 132, 0.575);
 }
 
 :root {
