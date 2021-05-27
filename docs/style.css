@@ -21,7 +21,8 @@ div{
 @keyframes testando{
     0% {
         background-image: linear-gradient(to bottom, #151515, rgba(9, 65, 110, 0.822));
-        border-radius: 5% 5%;
+        width: 225;
+        height: 225px;
     }
     25% {
         border-radius: 15% 15%;
@@ -39,4 +40,8 @@ div{
         background-image: linear-gradient(to bottom, #151515, rgba(9, 65, 110, 0.822));
         box-shadow: 10px 10px rgba(136, 132, 132, 0.575);
     }
+}
+
+body {
+    background-image: linear-gradient(to left, #e0dbdb, rgba(77, 142, 196, 0.822));
 }
